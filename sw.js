@@ -3,17 +3,17 @@ self.addEventListener('install', function (event) {
     event.waitUntil(
         caches.open('trackCss').then(function(cache) {
             return cache.addAll([
-                '/uom_track/index.html',
-                '/uom_track/common.js',
-                '/uom_track/manifest.json',
-                '/uom_track/track.js',
-                '/uom_track/trackCss.css'
-                '/uom_track/fwto1.jpg',
-                '/uom_track/fwto2.jpg',
-                '/uom_track/fwto3.jpg',
-                '/uom_track/fwto4.svg',
-                '/uom_track/icon1.png',
-                '/uom_track/icon2.png'
+                '/uom.Track/index.html',
+                '/uom.Track/common.js',
+                '/uom.Track/manifest.json',
+                '/uom.Track/track.js',
+                '/uom.Track/trackCss.css',
+                '/uom.Track/fwto1.jpg',
+                '/uom.Track/fwto2.jpg',
+                '/uom.Track/fwto3.jpg',
+                '/uom.Track/fwto4.svg',
+                '/uom.Track/icon1.png',
+                '/uom.Track/icon2.png'
             ]);
         })
     );
