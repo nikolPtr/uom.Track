@@ -2,7 +2,7 @@
 
 // Service Worker
 if ('serviceWorker' in navigator) {
-    navigator.serviceWorker.register('/uom_track/sw.js').catch(function (error) {
+    navigator.serviceWorker.register('/uom.Track/sw.js').catch(function (error) {
         // registration failed
         console.log('Registration failed with ' + error);
     });
